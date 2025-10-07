@@ -2072,8 +2072,8 @@
 		end
 	end)
 	local Tabs = {
-		Discord = Window:AddTab({
-			Title = "Disord"
+		tiktok = Window:AddTab({
+			Title = "tiktok"
 		}),
 		Server = Window:AddTab({
 			Title = "Server"
@@ -2119,7 +2119,7 @@
 		})
 	}
 
-	Tabs.Discord:AddButton({
+	Tabs.tiktok:AddButton({
 		Title = "Link tiktok nha các tình yêu",
 		Description = "Đây nha anh em ( Copy rồi dán vào google)",
 		Callback = function()
