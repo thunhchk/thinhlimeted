@@ -6685,9 +6685,9 @@
 	spawn(function()
 		while wait(.2) do
 			if workspace.Map:FindFirstChild("MysticIsland") or workspace._WorldOrigin.Locations:FindFirstChild("Mirage Island") then
-				Ismirage:SetDesc(" Mirage Island : True 🟢")
+				Ismirage:SetDesc(" Mirage Island : True")
 			else
-				Ismirage:SetDesc(" Mirage Island : False 🔴")
+				Ismirage:SetDesc(" Mirage Island : False")
 			end
 		end
 	end)
@@ -8857,9 +8857,9 @@
 	spawn(function()
 		while wait(.2) do
 			if workspace.Map:FindFirstChild("KitsuneIsland") or workspace._WorldOrigin.Locations:FindFirstChild("Kitsune Island") then
-				Check_Kitsu:SetDesc(" Kitsune Island : True 🟢")
+				Check_Kitsu:SetDesc(" Kitsune Island : True")
 			else
-				Check_Kitsu:SetDesc(" Kitsune Island : False 🔴")
+				Check_Kitsu:SetDesc(" Kitsune Island : False")
 			end
 		end
 	end)
@@ -9006,9 +9006,9 @@
 		while wait(.2) do
 			pcall(function()
 				if plr.PlayerGui.Main.Timer.Visible == true then
-					RaidS:SetDesc(" Raiding Statud : True 🟢")
+					RaidS:SetDesc(" Raiding Statud : True")
 				else
-					RaidS:SetDesc(" Raiding Statud : False 🔴")
+					RaidS:SetDesc(" Raiding Statud : False")
 				end
 			end)
 		end
